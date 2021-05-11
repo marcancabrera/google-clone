@@ -33,3 +33,17 @@ nav .nav-right-section a{
     margin-right: 10px;
     color: #000000;
 }
+
+nav .nav-right-section .suite-googlito-icon {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F1369%2FPNG%2F512%2F-apps_90405.png&f=1&nofb=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
