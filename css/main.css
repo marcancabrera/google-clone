@@ -1,7 +1,7 @@
 /* We can use * { ... } to remove styles by default of a browser of all labels*/
 
 body {
-    background-color: #000000;
+    background-color: #202124;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,4 +64,59 @@ main .main-logo {
 
 main .main-logo img {
     width: 300px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+/*curso 11*/
+main .main-input-container {
+    width: 525px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    border: 1px solid #5f6368;
+    align-items: center;
+}
+
+main .main-input input {
+    color: white;
+    background-color: #202124;
+    width: 450px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #202124;
+    background-color: #303134;
+    border-color: #303134;
+}
+
+main .main-input input:hover {
+    background-color: #303134;
+}
+
+main .main-input .search-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
 }
